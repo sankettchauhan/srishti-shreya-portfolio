@@ -23,7 +23,7 @@ export default function ProjectCard({
       </div>
       {/* image */}
       <div className={`${inverted ? "-mr-24" : "-ml-24"} flex-1`}>
-        <Image src={image} width={321} height={460} />
+        <Image src={image} width={321} height={460} alt={title} />
       </div>
     </div>
   );

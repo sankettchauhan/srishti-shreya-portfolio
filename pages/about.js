@@ -15,7 +15,12 @@ export default function about() {
           <div className="flex mt-20">
             {/*image  */}
             <div className="basis-2/5">
-              <Image src="/assets/images/phoen.webp" width={321} height={460} />
+              <Image
+                src="/assets/images/phoen.webp"
+                width={321}
+                height={460}
+                alt="srishti"
+              />
             </div>
             <div className="basis-3/5">
               <div className="text-fuchsia-600 font-bold text-xl ">I'm</div>
