@@ -25,7 +25,10 @@ export default function ContactMe() {
           placeholder="Add a message"
           className="border-2 border-fuchsia-600 p-3 placeholder:text-fuchsia-600 focus:placeholder:text-black"
         />
-        <button type="submit" className="mt-3 border-2 border-fuchsia-600">
+        <button
+          type="submit"
+          className="mt-3 border-2 border-fuchsia-600 hover:text-white hover:bg-fuchsia-600 transition-all"
+        >
           Submit
         </button>
       </form>
