@@ -1,0 +1,13 @@
+export const image = "/assets/images/abshk.webp";
+export const description =
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam a, nostrum voluptatum eum sit expedita, consequatur minima omnis, autem perspiciatis rem? Quam perspiciatis cupiditate eum exercitationem, vitae eaque? A, adipisci.";
+
+export const projects = [
+  {
+    title: "title",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam a, nostrum voluptatum eum sit expedita, consequatur minima omnis, autem perspiciatis rem? Quam perspiciatis cupiditate eum exercitationem, vitae eaque? A, adipisci.",
+    image: "/assets/images/phoen.webp",
+    bgcolor: "#000000",
+  },
+];
