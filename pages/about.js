@@ -23,7 +23,9 @@ export default function about() {
               />
             </div>
             <div className="basis-3/5">
-              <div className="text-fuchsia-600 font-bold text-xl ">I'm</div>
+              <div className="text-fuchsia-600 font-bold text-xl ">
+                I&apos;m
+              </div>
               <div className="text-fuchsia-600 font-bold text-6xl">Shristi</div>
               <div className="text-fuchsia-600 font-bold text-lg">
                 Shristi Shreya

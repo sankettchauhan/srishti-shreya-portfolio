@@ -40,7 +40,7 @@ export default function Footer() {
       <div className="flex justify-around w-full mb-16">
         <div>
           <h1 className="border-b-2 border-fuchsia-600 mb-4">
-            You can't miss me here
+            You can&apos;t miss me here
           </h1>
           <div className="flex">
             {missLinks.map(({ link, icon }) => (
