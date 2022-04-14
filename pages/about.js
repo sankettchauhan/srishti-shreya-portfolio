@@ -2,6 +2,7 @@ import Nav from "../components/Nav";
 import Image from "next/image";
 import Footer from "../components/Footer";
 import ContactMe from "../components/ContactMe";
+import { image, links, coverImage } from "../content/about";
 
 export default function about() {
   return (
@@ -15,12 +16,7 @@ export default function about() {
           <div className="flex mt-20">
             {/*image  */}
             <div className="basis-2/5">
-              <Image
-                src="/assets/images/phoen.webp"
-                width={321}
-                height={460}
-                alt="srishti"
-              />
+              <Image src={image} width={321} height={460} alt="srishti" />
             </div>
             <div className="basis-3/5">
               <div className="text-fuchsia-600 font-bold text-xl ">
@@ -45,10 +41,26 @@ export default function about() {
       {/* tijori behance resume */}
       <div className="bg-white text-fuchsia-600 py-12">
         <div className="flex justify-around">
-          <div className="text-3xl font-bold">Tijori</div>
-          <div className="text-3xl font-bold">Behance</div>
-          <div className="text-3xl font-bold">Resume</div>
+          <a href={links.tijori} className="text-3xl font-bold">
+            Tijori
+          </a>
+          <a href={links.behance} className="text-3xl font-bold">
+            Behance
+          </a>
+          <a href={links.resume} className="text-3xl font-bold">
+            Resume
+          </a>
         </div>
+
+        <div className="m-32 mt-16">
+          <Image
+            src={coverImage}
+            layout="responsive"
+            width={200}
+            height={100}
+          />
+        </div>
+
         <ContactMe />
       </div>
       <Footer />

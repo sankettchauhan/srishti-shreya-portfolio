@@ -1,8 +1,9 @@
 import { useRouter } from "next/router";
 import Image from "next/image";
-import Nav from "../../components/Nav";
+// import Nav from "../../components/Nav";
 import { PROJECTS } from "../../content/projects";
 import Footer from "../../components/Footer";
+import { BiArrowBack } from "react-icons/bi";
 
 export default function Project() {
   const router = useRouter();
@@ -12,10 +13,20 @@ export default function Project() {
   const project = PROJECTS[projectId];
   const constantImage = project?.constant;
   const projectImages = project?.images;
-  console.log(projectImages);
+
+  const goback = () => {
+    router.back();
+  };
+
   return (
     <>
       {/* <Nav /> */}
+      <a
+        className="absolute text-3xl m-8 border-2 border-white rounded-full p-2 cursor-pointer"
+        onClick={goback}
+      >
+        <BiArrowBack />
+      </a>
       {/* parallax image */}
       <div
         style={{ backgroundImage: `url(${constantImage})` }}

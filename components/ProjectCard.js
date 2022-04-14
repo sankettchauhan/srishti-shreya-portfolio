@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 export default function ProjectCard({
   inverted,
@@ -7,14 +8,19 @@ export default function ProjectCard({
   image,
   bgcolor,
 }) {
+  const router = useRouter();
+
+  const handleClick = (title) => router.push(`/project/${title}`);
+
   return (
     <div className="flex mx-32 mb-8">
       {/* content */}
       <div
+        style={{ backgroundColor: bgcolor }}
         className={`my-16 p-12 flex-1 flex ${
           inverted ? "pl-24 order-2" : "pr-24"
-        }`}
-        style={{ backgroundColor: bgcolor }}
+        } cursor-pointer`}
+        onClick={() => handleClick(title)}
       >
         <div className="mt-auto">
           <h1 className="text-3xl mb-6 uppercase">{title}</h1>
