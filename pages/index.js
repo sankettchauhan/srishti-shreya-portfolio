@@ -34,7 +34,11 @@ export default function Home() {
           {/* project card */}
           <div className="mt-32">
             {projects.map((project, index) => (
-              <ProjectCard {...project} inverted={index % 2 == 0} />
+              <ProjectCard
+                key={`${project.title}-${index + 1}`}
+                {...project}
+                inverted={index % 2 == 0}
+              />
             ))}
           </div>
         </div>

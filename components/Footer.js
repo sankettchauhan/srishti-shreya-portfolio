@@ -23,7 +23,7 @@ const knowLinks = [
     icon: <GrLinkedinOption className="text-4xl text-black" />,
   },
   {
-    link: "https://linkedin.com",
+    link: "https://whatsapp.com",
     icon: <BsWhatsapp className="text-4xl text-black" />,
   },
 ];
@@ -44,7 +44,11 @@ export default function Footer() {
           </h1>
           <div className="flex">
             {missLinks.map(({ link, icon }) => (
-              <a className="bg-white rounded-full p-1 mr-4" href={link}>
+              <a
+                key={link}
+                className="bg-white rounded-full p-1 mr-4"
+                href={link}
+              >
                 {icon}
               </a>
             ))}
@@ -56,7 +60,11 @@ export default function Footer() {
           </h1>
           <div className="flex">
             {knowLinks.map(({ link, icon }) => (
-              <a className="bg-white rounded-full p-1 mr-4" href={link}>
+              <a
+                key={link}
+                className="bg-white rounded-full p-1 mr-4"
+                href={link}
+              >
                 {icon}
               </a>
             ))}
