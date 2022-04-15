@@ -1,6 +1,6 @@
 export const image = "/assets/images/abshk.webp";
 export const description =
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam a, nostrum voluptatum eum sit expedita, consequatur minima omnis, autem perspiciatis rem? Quam perspiciatis cupiditate eum exercitationem, vitae eaque? A, adipisci.";
+  "shirsti";
 
 export const projects = [
   {
