@@ -16,14 +16,14 @@ export default function about() {
           <div className="flex mt-20">
             {/*image  */}
             <div className="basis-2/5">
-              <Image src={image} width={100} height={100} alt="srishti" />
+              <Image src={image} width={400} height={400} alt="srishti" />
             </div>
             <div className="basis-3/5">
               <div className="text-fuchsia-600 font-bold text-xl ">
                 I&apos;m
               </div>
               <div className="text-fuchsia-600 font-bold text-6xl">Shristi</div>
-              <div className="text-fuchsia-600 font-bold text-lg">
+              <div className="text-fuchsia-600 font-bold text-lg mb-2">
                 Shristi Shreya
               </div>
               <div>
