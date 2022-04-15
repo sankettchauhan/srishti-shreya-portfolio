@@ -16,7 +16,7 @@ export default function about() {
           <div className="flex mt-20">
             {/*image  */}
             <div className="basis-2/5">
-              <Image src={image} width={321} height={460} alt="srishti" />
+              <Image src={image} width={100} height={100} alt="srishti" />
             </div>
             <div className="basis-3/5">
               <div className="text-fuchsia-600 font-bold text-xl ">
