@@ -11,7 +11,7 @@ export const PROJECTS = {
     ],
     constant: "/assets/images/project1/constant-image.png",
   },
-  project2: {
+  MEDI TRIBE: {
     images: [
       "/assets/images/project1/1.png",
       "/assets/images/project1/2.jpg",
