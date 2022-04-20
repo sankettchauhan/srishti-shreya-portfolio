@@ -14,7 +14,7 @@ export const projects = [
     title: "MEDI TRIBE",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam a, nostrum voluptatum eum sit expedita, consequatur minima omnis, autem perspiciatis rem? Quam perspiciatis cupiditate eum exercitationem, vitae eaque? A, adipisci.",
-    image: "/assets/images/phoen.webp",
+    image: "/assets/images/Home/Medi Tribe.webp",
     bgcolor: "#000000",
   },
   {
