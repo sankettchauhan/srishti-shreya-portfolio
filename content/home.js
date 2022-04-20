@@ -1,4 +1,4 @@
-export const image = "/assets/images/abshk.webp";
+export const image = "/assets/images/Home/Shristi.webp";
 export const description =
   "shirsti";
 
