@@ -4,11 +4,11 @@ import { GrLinkedinOption } from "react-icons/gr";
 
 export const missLinks = [
   {
-    link: "https://behance.com",
+    link: "https://www.behance.net/shristishreya",
     icon: <AiOutlineBehance className="text-4xl text-black" />,
   },
   {
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/_.tijori._/?hl=en",
     icon: <AiOutlineInstagram className="text-4xl text-black" />,
   },
 ];
