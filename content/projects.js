@@ -34,3 +34,4 @@ export const PROJECTS = {
       "/assets/images/project1/7.jpg",
     ],
     constant: "/assets/images/project1/constant-image.png",
+  },
