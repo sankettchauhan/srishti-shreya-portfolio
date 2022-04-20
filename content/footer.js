@@ -15,7 +15,7 @@ export const missLinks = [
 
 export const knowLinks = [
   {
-    link: "https://facebook.com",
+    link: "https://www.facebook.com/shristi.shreya.12/",
     icon: <BsFacebook className="text-4xl text-black" />,
   },
   {
