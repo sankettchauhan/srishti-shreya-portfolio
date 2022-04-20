@@ -4,7 +4,7 @@ export const description =
 
 export const projects = [
   {
-    title: "CLEVER PARK",
+    title: "CLEVERPARK",
     description:
       "A digital parking solution that allows online and offline, Booking of parking slots, as well as providing navigation options for both offline and online users simultaneously.",
     image: "/assets/images/project1/P1DP.webp",
