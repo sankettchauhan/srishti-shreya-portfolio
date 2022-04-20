@@ -4,5 +4,5 @@ export const links = {
   behance: "https://behance.com",
   resume: "resume.pdf",
 };
-export const coverImage = "/assets/images/Artwork.webp";
+export const coverImage = "/assets/images/about/Artwork.webp";
 
