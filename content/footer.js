@@ -19,7 +19,7 @@ export const knowLinks = [
     icon: <BsFacebook className="text-4xl text-black" />,
   },
   {
-    link: "https://linkedin.com",
+    link: "linkedin.com/in/shristishreya",
     icon: <GrLinkedinOption className="text-4xl text-black" />,
   },
   {
