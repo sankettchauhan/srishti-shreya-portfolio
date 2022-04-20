@@ -1,5 +1,5 @@
 export const PROJECTS = {
-  CLEVERPARK: {
+  CLEVER PARK: {
     images: [
       "/assets/images/project1/1.png",
       "/assets/images/project1/2.jpg",
