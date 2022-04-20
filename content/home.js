@@ -13,7 +13,7 @@ export const projects = [
   {
     title: "MEDI TRIBE",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam a, nostrum voluptatum eum sit expedita, consequatur minima omnis, autem perspiciatis rem? Quam perspiciatis cupiditate eum exercitationem, vitae eaque? A, adipisci.",
+      "Medi Tribe is a platform for physicians to effortlessly communicate with one another, designed specifically for small-town healthcare sectors to decrease the probability of medical errors caused by poor communication and collaboration.",
     image: "/assets/images/Home/Medi Tribe.webp",
     bgcolor: "#000000",
   },
