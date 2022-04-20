@@ -6,7 +6,7 @@ export const projects = [
   {
     title: "project1",
     description:
-      "A Design Solution that allows online and offline, Booking of parking slots, as well as providing navigation options for both offline and online users simultaneously.",
+      "A digital parking solution that allows online and offline, Booking of parking slots, as well as providing navigation options for both offline and online users simultaneously.",
     image: "/assets/images/project1/P1DP.webp",
     bgcolor: "#000000",
   },
