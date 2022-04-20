@@ -1,7 +1,6 @@
 export const PROJECTS = {
   CLEVER PARK: {
     images: [
-      "/assets/Projects/Clever Park/1.webp",
       "/assets/Projects/Clever Park/2.webp",
       "/assets/Projects/Clever Park/3.webp",
       "/assets/Projects/Clever Park/4.webp",
@@ -19,7 +18,7 @@ export const PROJECTS = {
       "/assets/Projects/Clever Park/16.webp",
       "/assets/Projects/Clever Park/17.webp",
     ],
-    constant: "/assets/images/project1/constant-image.png",
+    constant: "/assets/Projects/Clever Park/1.webp",
   },
   MEDI TRIBE: {
     images: [
