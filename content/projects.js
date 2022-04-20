@@ -1,5 +1,5 @@
 export const PROJECTS = {
-  project1: {
+  Clever Park: {
     images: [
       "/assets/images/project1/1.png",
       "/assets/images/project1/2.jpg",
