@@ -1,5 +1,5 @@
 export const PROJECTS = {
-  CLEVER PARK: {
+  "CLEVER PARK": {
     images: [
       "/assets/Projects/Clever Park/2.webp",
       "/assets/Projects/Clever Park/3.webp",
@@ -20,7 +20,7 @@ export const PROJECTS = {
     ],
     constant: "/assets/Projects/Clever Park/1.webp",
   },
-  MEDI TRIBE: {
+  "MEDI TRIBE": {
     images: [
       "/assets/images/project1/1.png",
       "/assets/images/project1/2.jpg",
@@ -32,7 +32,7 @@ export const PROJECTS = {
     ],
     constant: "/assets/images/project1/constant-image.png",
   },
-  project3: {
+  "project3": {
     images: [
       "/assets/images/project1/1.png",
       "/assets/images/project1/2.jpg",
@@ -44,3 +44,4 @@ export const PROJECTS = {
     ],
     constant: "/assets/images/project1/constant-image.png",
   },
+}
